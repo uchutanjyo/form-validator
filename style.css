@@ -1,0 +1,127 @@
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  background-color: rgb(105, 76, 32);
+  letter-spacing: 2px;
+
+}
+
+
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 1px;
+  border-radius: 10%;
+  height: auto;
+  width: 30%;
+  padding: 50px;
+  background-color: rgb(90, 48, 56);
+  box-shadow: 0 40px 400px 10px rgba(0,0,0,0.8)
+}
+
+form {
+  width: 90%;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  height: 65px;
+  color: white;
+  
+}
+
+#form label {
+position: relative;
+margin-top: 10px;
+align-items: left;
+
+}
+input {
+
+  width: 100%;
+  height: 30px;
+  margin-top: 5px;
+  border: solid 2px black;
+  border-radius: 10%;
+  font-size: 1em;
+  outline: none;
+  padding: 5px;
+  transition: all 0.3s;
+}
+
+  input:valid {
+    border: solid 2px green;
+
+  }
+ 
+  input:invalid {
+    border-color: red;
+    }
+
+h1 {
+  text-align: center;
+  background-color: rgba(136, 130, 130, 0.8);
+  border-radius: 5%;
+}
+
+#button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button{
+  font-size: 2em;
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 5%;
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  border: 1px solid;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: all 1s;
+
+}
+
+button:hover {
+  filter: brightness(90%);
+  color: rgb(90, 48, 56);
+  background-color: rgba(136, 130, 130, 0.8);
+
+}
+
+button:focus {
+  outline: none;
+
+}
+
+
+.message-container {
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+text-align: center;
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: 5%;
+  background-color: white;
+  width: 85%;
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
